@@ -3,12 +3,10 @@
     margin: 0;
 }
 section {
-    position: relative;
-    right: 80vw;
+    position: absolute;
     color: white;
-    border: 1vw  white;
-    padding: 1vw 1vw;
-    margin:  25vw -1vw 1vw 90vw
+    padding: 1% 5% 1% 1%;
+    margin:  25% 85% 1% 0
 }
 h1 {
     position:absolute;
@@ -22,6 +20,7 @@ h4 {
     top: 85px;
     line-height: 80px;
 }
+
 header {
     position: absolute;
     top: 150px;
@@ -49,13 +48,20 @@ header ul{
     line-height: 80px;
 }
 .cat {
+    position: relative;
+    left: 5%;
     background-color: #0088ff;
-    right: 80vw;
+    margin: 1px 10px 1px 1px;
+    border: 10px #0088ff solid;
+    transform: translate(0);
 }
+
 section a {
     color: white;
     text-decoration: none;
 }
-section a:hover{
+section a:hover {
     text-decoration: underline;
 }
+
+
