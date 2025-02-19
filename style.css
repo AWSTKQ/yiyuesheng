@@ -20,7 +20,6 @@ h4 {
     top: 85px;
     line-height: 80px;
 }
-
 header {
     position: absolute;
     top: 150px;
@@ -55,7 +54,6 @@ header ul{
     border: 10px #0088ff solid;
     transform: translate(0);
 }
-
 section a {
     color: white;
     text-decoration: none;
@@ -63,5 +61,63 @@ section a {
 section a:hover {
     text-decoration: underline;
 }
+.sy {
+    background: #005599;
+    border: 15px #005599 solid;
+    transform: translate(0);
+}
+.zdq {
+    position: relative;
+    left: 5%;
+    background-color: #005599;
+    margin: 1px 10px 1px 1px;
+    border: 10px #005599 solid;
+    transform: translate(0);
+}
+.sy1 {
+    background: #0088ff;
+    border: 15px #0088ff solid;
+    transform: translate(0);
+}
 
+.menu {
+    width: fit-content;
+    margin: 6rem auto;
+}
 
+.menu1 {
+    cursor: pointer;
+    background: #0088ff;
+    padding: 0;
+    color: #fff;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-list a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #005599;
+    color: #fff;
+    padding: 10px 0;
+}
+.menu:hover .menu-list{
+    display: block;
+}
+.menu-list1 a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #0088ff;
+    color: #fff;
+    padding: 10px 0;
+}
+.menu {
+    position: absolute;
+    left: 100%;
+    top: -95px;
+    width: 30%;
+}
